@@ -191,10 +191,26 @@ nav li {
     color: #FF42A5  ;
      
 }
+  /* play more  */
  
-
+.play-more{
+    height: 500px;
+    padding-top: 100px;
+    align-items: center;
+    
+    
+     
+}
  
-
+.play-more >button{
+    border-radius: 50px;
+    background: #FFF;
+    Display:flex;
+    Justify-content:center;
+    align-items:center;  
+ 
+ 
+}
 
 
 
