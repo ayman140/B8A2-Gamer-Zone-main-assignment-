@@ -148,6 +148,49 @@ nav li {
      width: 250px;
      height: 300px;
 }
+/* career sections */
+.career-section{
+    display: flex;
+    color: #FFF;
+    background-color: #FF42A5;
+}
+.career-content{
+    padding-top: 140px;
+    padding-left: 100px;
+}
+.career-content-title{
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 24px;
+
+}
+.career-content-description{
+    padding-bottom: 34px;
+    line-height: 1.8;
+}
+.career-content>.jobs{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-bottom: 40px;
+    line-height: 1.8;
+     
+}
+.career-content li{
+    list-style: none;
+     
+}
+.career-img{
+     width: 60%;
+}
+#career-btn{
+    border-radius: 48px;
+    width: 275px;
+    height: 65px;
+    background: #FFF;
+    color: #FF42A5  ;
+     
+}
  
 
  
