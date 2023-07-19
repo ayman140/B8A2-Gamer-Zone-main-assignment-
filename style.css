@@ -50,6 +50,8 @@ nav li {
    height: 56px;
    border: none;
    background-color:rgba(11, 2, 35, 0.10);
+   font-size: 18px;
+   font-weight: 500;
 }
 /* main sections  */
 .banner-container{
