@@ -17,13 +17,18 @@ body {
      
  
 }
+.menubar .logo{
+     padding-bottom: 10px;
+    padding-left: 300px;
+}
+
 .menubar-title{
 
     width: 147px;
     height: 153px;
     font-size: 45px;
     font-weight: 700;
-    padding-left: 240px; 
+     padding-right: 200px;
     padding-top: 6%;
 }
 #G{
@@ -43,6 +48,7 @@ nav li {
    border-radius: 8px;
    width: 262px;
    height: 56px;
+   border: none;
    background-color:rgba(11, 2, 35, 0.10);
 }
 /* main sections  */
@@ -77,6 +83,7 @@ nav li {
       color: white;
       gap: 10px;
       margin-top:50px;
+      border: none;
 }
 .go-btn{
     border-radius: 40px;
@@ -84,7 +91,7 @@ nav li {
     height: 65px;
     background: #4EC5F7;
     color: white;
-     
+    border: none;
 }
 
 .banner-img-container >img{
@@ -104,6 +111,9 @@ nav li {
     text-align: center;
     padding: 80px;
 }
+#light-gray{
+    color: gray;
+}
 .games-content-title{
     font-size: 48px;
     font-weight: 700;
@@ -119,6 +129,9 @@ nav li {
     width: 332px ;
     height: 400px;
      
+}
+.games-container-img figcaption{
+    color: gray;
 }
 /*play  games instantly */
 
@@ -137,6 +150,7 @@ nav li {
     font-size: 45px;
     font-weight: 700;
 }
+
 #play-instantly-img-1{
     height: 530px;
     width: 450px;
@@ -167,6 +181,7 @@ nav li {
 .career-content-description{
     padding-bottom: 34px;
     line-height: 1.8;
+    
 }
 .career-content>.jobs{
     display: flex;
@@ -189,30 +204,102 @@ nav li {
     height: 65px;
     background: #FFF;
     color: #FF42A5  ;
-     
+    border: none;
+    font-size: 25px;
 }
   /* play more  */
  
 .play-more{
-    height: 500px;
-    padding-top: 100px;
+    height: 350px;
+    padding-top: 200px;
+    align-items: center; 
+    background:rgba(241, 68, 174, 0.05) ;  
+}
+ .start-part{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   gap: 20px;
+ }
+ .end-part{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+ }
+ .start-part>button{
+     border-radius: 48px;
+     background-color: #fff;
+     display: flex;
+      justify-content: center;
+     align-items: center;
+     border: none;
+      
+ }
+ .end-part>button{
+    border-radius: 48px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    
-    
-     
-}
- 
-.play-more >button{
-    border-radius: 50px;
-    background: #FFF;
-    Display:flex;
-    Justify-content:center;
-    align-items:center;  
- 
- 
+    border-style: none;
+    background-color: #FFF;
+    gap: 20px;
+ }
+
+/* footer */
+.footer{
+    height: 500px;
+    background-color: #0B0223;
+    color: #FFF;
+    text-align: center;
+   
 }
 
+#footer-logo-title{
+    display: flex;
+    justify-content: center;
+    padding-top: 45px; 
+    font-size: 45px;
+    font-weight: 700 ;
+    gap: 30px;
+}
+.logo{
+    padding-top: 14px;
+}
 
+  
+.footer-menu{
+     padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 30px;
+
+}
+
+.footer-menu li{
+    list-style: none;
+}
+.footer img{
+    gap: 80px;
+}
+#terms{
+    padding-top:30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: grey;
+      
+}
+
+#terms li{
+    list-style: none;
+}
+
+#copiright{
+    padding-top: 30px;
+    color: grey;
+}
 
 
  /* Default styles (for all screen sizes) */
